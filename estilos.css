@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+}
+/*menu*/
+header nav {
+  background-color: #033B7E;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+header nav ul li a {
+  color: #E1F128;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #FFFFFF;
+}
+
+/*carrusel*/
+.carrusel {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imagenes {
+  display: flex;
+  width: 170%;
+  animation: slide 10s infinite linear;
+}
+
+.imagenes li {
+  width: 100%;
+  list-style: none;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: -25%;
+  }
+  50% {
+    margin-left: -50%;
+  }
+  75% {
+    margin-left: -75%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+/*anclas*/
+.anclas{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/*nosotros*/
+.contenedor {
+  display: flex;
+  align-items: center;
+}
+
+.imgnosotros {
+  margin-left: 10px;
+  margin-right: 50px;
+  width: 400px;
+  height: 300px;
+}
+
+/*servicios*/
+.contenedor-servicios {
+  display: flex;
+}
+
+.columna {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.columna img {
+  margin-bottom: 10px;
+}
+
+.text-servicio {
+text-align: justify;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+/*footer*/
+.pie-de-pagina {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #033B7E;
+  color: #E1F128; 
+  padding: 20px 0; 
+  text-align: center;
+}
+ /*rent a car*/
+.text-rent {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contenedor-columnas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.columna {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.columna img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*contactanos*/
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45A049;
+}
+
+.distancia-contactanos{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
